@@ -359,7 +359,7 @@ systemctl restart kubelet
 kubectl create clusterrolebinding login-on-dashboard-with-cluster-admin --clusterrole=cluster-admin --user=admin
 ```
 
-访问https://172.26.X.60:30000,输入用户名`admin`和密码`admin`即可登录dashboard。
+访问 https://172.26.X.60:30000 ,输入用户名`admin`和密码`admin`即可登录dashboard。
 
 另外一种方式token，首先需要将`kubernetes-dashboard.yaml`中验证方式由`basic`修改为token。
 
