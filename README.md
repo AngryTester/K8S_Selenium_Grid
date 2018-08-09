@@ -402,7 +402,7 @@ kubectl apply -f selenium-chrome.deployment.yml
 kubectl scale --replicas=3 -f selenium-chrome.deployment.yml
 ```
 
-访问http://172.26.X.60:30001/grid/console即能看到Grid集群情况。
+访问http://172.26.X.60:30001/grid/console  即能看到Grid集群情况。
 
 
 
