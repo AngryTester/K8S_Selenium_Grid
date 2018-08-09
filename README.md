@@ -321,9 +321,9 @@ kubectl apply -f kube-flannel-rbac.yaml
 kubectl apply -f  kube-flannel.yaml
 ```
 
-`kube-flannel-rbac.yaml`文件[参考]()
+`kube-flannel-rbac.yaml`文件[参考](https://raw.githubusercontent.com/AngryTester/K8S_Selenium_Grid/master/kube-flannel-rbac.yaml)
 
-`kube-flannel.yaml`文件[参考]()
+`kube-flannel.yaml`文件[参考](https://raw.githubusercontent.com/AngryTester/K8S_Selenium_Grid/master/kube-flannel.yml)
 
 ### 创建dashboard
 
@@ -331,7 +331,7 @@ kubectl apply -f  kube-flannel.yaml
 ```
 kubectl apply -f kubernetes-dashboard.yaml
 ```
-`kubernetes-dashboard.yaml`文件[参考]()
+`kubernetes-dashboard.yaml`文件[参考](https://raw.githubusercontent.com/AngryTester/K8S_Selenium_Grid/master/kubernetes-dashboard.yaml)
 
 ### 创建dashboard认证
 
@@ -378,9 +378,9 @@ kubectl -n kube-system describe replicaset-controller-token-wsv4v
 
 ### 创建selenium-hub
 
-`selenium.namespace.yml`内容[参考]()
-`selenium-hub.deployment.yml`内容[参考]()
-`selenium-hub.service.yml`内容[参考]()
+`selenium.namespace.yml`内容[参考](https://raw.githubusercontent.com/Polygon-io/selenium-on-kubernetes/master/selenium.namespace.yml)
+`selenium-hub.deployment.yml`内容[参考](https://raw.githubusercontent.com/Polygon-io/selenium-on-kubernetes/master/selenium-hub.deployment.yml)
+`selenium-hub.service.yml`内容[参考](https://raw.githubusercontent.com/Polygon-io/selenium-on-kubernetes/master/selenium-hub.service.yml)
 
 ```
 kubectl apply -f selenium.namespace.yml
@@ -390,7 +390,7 @@ kubectl apply -f selenium-hub.service.yml
 
 ### 创建selenium-node
 
-`selenium-chrome.deployment.yml`内容[参考]()
+`selenium-chrome.deployment.yml`内容[参考](https://raw.githubusercontent.com/Polygon-io/selenium-on-kubernetes/master/selenium-chrome.deployment.yml)
 
 ```
 kubectl apply -f selenium-chrome.deployment.yml
